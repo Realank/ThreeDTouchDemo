@@ -28,23 +28,24 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.80961753766123323" blue="0.47840306908435781" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="MpA-yx-kN3"/>
-                                    <constraint firstAttribute="height" constant="128" id="SCp-f8-pcp"/>
-                                    <constraint firstAttribute="bottom" secondItem="Nte-kS-UNB" secondAttribute="bottom" constant="8" id="arJ-VA-CqC"/>
-                                    <constraint firstAttribute="trailing" secondItem="Nte-kS-UNB" secondAttribute="trailing" constant="8" id="eln-K3-wk4"/>
+                                    <constraint firstAttribute="height" constant="128" id="0Ec-sW-o4r"/>
+                                    <constraint firstAttribute="width" constant="240" id="Ed1-bt-sQm"/>
+                                    <constraint firstItem="Nte-kS-UNB" firstAttribute="top" secondItem="TRM-nV-WrA" secondAttribute="top" constant="99" id="Xaz-5h-8yb"/>
+                                    <constraint firstItem="Nte-kS-UNB" firstAttribute="bottom" secondItem="TRM-nV-WrA" secondAttribute="bottomMargin" id="bCf-aq-0MG"/>
+                                    <constraint firstItem="Nte-kS-UNB" firstAttribute="trailing" secondItem="TRM-nV-WrA" secondAttribute="trailingMargin" id="d2c-6G-NWm"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RP-vS-PRG">
-                                <rect key="frame" x="18" y="93" width="120" height="30"/>
+                                <rect key="frame" x="240" y="98" width="120" height="30"/>
                                 <state key="normal" title="动态增加快捷启动"/>
                                 <connections>
                                     <action selector="createFastAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nDK-mF-jeK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MA3-xM-EsO">
-                                <rect key="frame" x="20" y="124" width="150" height="30"/>
+                                <rect key="frame" x="225" y="158" width="150" height="30"/>
                                 <state key="normal" title="删除全部动态快捷启动"/>
                                 <connections>
                                     <action selector="createFastAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R68-ET-m0k"/>
@@ -54,12 +55,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TRM-nV-WrA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1ms-kO-G62"/>
-                            <constraint firstItem="MA3-xM-EsO" firstAttribute="top" secondItem="5RP-vS-PRG" secondAttribute="bottom" constant="1" id="9FB-WK-CHt"/>
-                            <constraint firstItem="MA3-xM-EsO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9vL-lL-WHH"/>
-                            <constraint firstItem="5RP-vS-PRG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="BmR-Qf-AeY"/>
-                            <constraint firstItem="5RP-vS-PRG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="ZcZ-o0-N0x"/>
-                            <constraint firstItem="TRM-nV-WrA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nmI-lL-g6Y"/>
+                            <constraint firstItem="TRM-nV-WrA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7sb-pL-eYi"/>
+                            <constraint firstItem="TRM-nV-WrA" firstAttribute="centerX" secondItem="MA3-xM-EsO" secondAttribute="centerX" id="9D7-ng-JbI"/>
+                            <constraint firstItem="MA3-xM-EsO" firstAttribute="centerX" secondItem="5RP-vS-PRG" secondAttribute="centerX" id="VDS-bb-bV7"/>
+                            <constraint firstItem="5RP-vS-PRG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="34" id="aW6-qz-jjl"/>
+                            <constraint firstItem="MA3-xM-EsO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aXR-Pb-vQN"/>
+                            <constraint firstItem="MA3-xM-EsO" firstAttribute="top" secondItem="5RP-vS-PRG" secondAttribute="bottom" constant="30" id="wNj-OE-yiC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9iI-B7-qe6"/>
